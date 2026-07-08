@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <TITLE>Фильмы</TITLE>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ===== ШАПКА ===== -->
+    <div class="nav-bar">
+        <div class="nav-logo">MovieLib</div>
+        <div class="nav-links">
+            <a href="index.htm" class="active">Главная</a>
+            <a href="libraru.htm" class="link">Библиотека</a>
+            <a href="new.htm" class="link">Новинки</a>
+            <a href="contact.htm" class="link">Контакты</a>
+        </div>
+    </div>
+
+    <!-- Подпись (теперь без inline) -->
+    <p class="subtitle">Все ваши фильмы всегда под рукой</p>
+
+    <!-- Постеры -->
+    <div class="posters-container">
+        <div class="poster-card">
+            <img src="https://i.pinimg.com/736x/3c/b4/28/3cb428f7b5e7246ee9c2727862e423e4.jpg" width="200" class="poster-img">
+            Мстители
+        </div>
+        <div class="poster-card">
+            <img src="https://i.pinimg.com/736x/4d/ab/cf/4dabcf824a00ebb9093127d1179a794c.jpg" width="200" class="poster-img">
+            Гарри Поттер
+        </div>
+        <div class="poster-card">
+            <img src="https://i.pinimg.com/736x/38/b9/c3/38b9c3bea33531dd478318970e0fb4cf.jpg" width="200" class="poster-img">
+            Сверхъестественное
+        </div>
+        <div class="poster-card">
+            <img src="https://i.pinimg.com/736x/6a/6a/f7/6a6af7cca987e0dd63ff313cf7b234ca.jpg" width="200" class="poster-img">
+            Академия амбрелла
+        </div>
+        <div class="poster-card">
+            <img src="https://i.pinimg.com/736x/ec/f2/57/ecf257e0de8ef3bf063ae354a9e0fc96.jpg" width="200" class="poster-img">
+            Остров проклятых
+        </div>
+        <div class="poster-card">
+            <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/b5776bd6-553c-4d18-ade2-91f022301db1/576x" width="200" class="poster-img">
+            Отряд самоубийц
+        </div>
+        <div class="poster-card">
+            <img src="https://i.pinimg.com/1200x/38/8b/83/388b8345a63306094ac2bebcb15d1991.jpg" width="200" class="poster-img">
+            Веном
+        </div>
+    </div>
+
+    <!-- Блок настроений -->
+    <div class="mood-section">
+        <input type="radio" id="tab-romantic" name="mood-tabs" checked>
+        <input type="radio" id="tab-horror" name="mood-tabs">
+        <input type="radio" id="tab-cleaning" name="mood-tabs">
+        <input type="radio" id="tab-drama" name="mood-tabs">
+
+        <div class="mood-buttons-row">
+            <label for="tab-romantic" class="mood-label">Заесть депрессию мороженым</label>
+            <label for="tab-horror" class="mood-label">Чтобы кровь застыла в жилах</label>
+            <label for="tab-cleaning" class="mood-label">Для фона под уборку</label>
+            <label for="tab-drama" class="mood-label">Включить, чтобы поплакать</label>
+        </div>
+
+        <div class="mood-content-zone">
+            <div class="mood-item romantic-content">
+                <img src="https://i.pinimg.com/736x/42/e4/ff/42e4ff015a66513e1dce3b31d5262396.jpg" alt="Сваты">
+            </div>
+            <div class="mood-item horror-content">
+                <img src="https://i.pinimg.com/1200x/04/ff/f9/04fff950a06e373294103e63924fe5d9.jpg" alt="Крик">
+            </div>
+            <div class="mood-item cleaning-content">
+                <img src="https://i.pinimg.com/736x/65/35/e6/6535e6fe2500a03dc56e7dd5ed6853d6.jpg" alt="Интерны">
+            </div>
+            <div class="mood-item drama-content">
+                <img src="https://i.pinimg.com/1200x/19/2f/77/192f775ba53a687268208ede5b66b3ae.jpg" alt="В метре друг от друга">
+            </div>
+        </div>
+    </div>
+
+    <!-- Фильм дня (теперь без <center> и без inline) -->
+    <div class="daily-movie-box">
+        <h2 class="daily-title">Фильм дня</h2>
+        <img src="https://i.pinimg.com/736x/74/86/35/7486354968dfda0998edc4e3f04fdd5e.jpg" class="daily-poster" alt="Фильм дня">
+        <h2 class="daily-title">Твое сердце будет разбито</h2>
+    </div>
+
+  <!-- ===== ФУТЕР ===== -->
+<div class="footer">
+    <div class="footer-logo">MovieLib</div>
+    <div class="footer-slogan">Твой персональный гид в мире кино и сериалов</div>
+    <div class="footer-links">
+        <span>Telegram @MovieLib</span>
+        <span>Instagram @MovieLib</span>
+        <span>Поддержка +375 29 333 99 99</span>
+    </div>
+    <hr class="footer-divider">
+    <div class="footer-copyright">© 2026 MovieLib. Все права защищены.</div>
+</div>
+
+
+
+</body>
+</html>

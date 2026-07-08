@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Сдать фильм - MovieLib</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ===== ШАПКА ===== -->
+    <div class="nav-bar">
+        <div class="nav-logo">MovieLib</div>
+        <div class="nav-links">
+            <a href="index.htm" class="link">Главная</a>
+            <a href="libraru.htm" class="link">Библиотека</a>
+            <a href="new.htm" class="link">Новинки</a>
+            <a href="contact.htm" class="link">Контакты</a>
+        </div>
+    </div>
+
+    <!-- ===== ПОДПИСЬ ===== -->
+    <p class="subtitle">Все ваши фильмы всегда под рукой</p>
+
+    <!-- ===== ФОРМА ДЛЯ ОТПРАВКИ ФИЛЬМА ===== -->
+    <div class="form-section">
+        <h2 class="form-title">Прием улик: Сдать фильм</h2>
+        <p class="form-subtitle">
+            Заполните анкету кино-розыска. Наш главный агент проверит качество видеофайла и добавит его в общую библиотеку!
+        </p>
+
+        <!-- Форма -->
+        <form action="#" onsubmit="alert('Анкета успешно отправлена агентам!'); return false;">
+
+            <div class="form-group">
+                <label for="movie-name">Название фильма или сериала:</label>
+                <input type="text" id="movie-name" required placeholder="Например: Интерстеллар">
+            </div>
+
+            <div class="form-group">
+                <label for="movie-url">Ссылка на видео или трейлер:</label>
+                <input type="url" id="movie-url" required placeholder="https://example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="movie-reason">Почему мы должны его добавить?</label>
+                <textarea id="movie-reason" placeholder="Потому что это шедевр..."></textarea>
+            </div>
+
+            <!-- Кнопка отправки -->
+            <div class="text-center">
+                <button type="submit" class="btn-submit">Отправить анкету</button>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- ===== ФУТЕР ===== -->
+    <div class="footer">
+        <div class="footer-logo">MovieLib</div>
+        <div class="footer-slogan">Твой персональный гид в мире кино и сериалов</div>
+        <div class="footer-links">
+            <a href="#">Telegram @MovieLib</a>
+            <a href="#">Instagram @MovieLib</a>
+            <a href="#">Поддержка +375 29 333 99 99</a>
+        </div>
+        <hr class="footer-divider">
+        <div class="footer-copyright">© 2026 MovieLib. Все права защищены.</div>
+    </div>
+
+</body>
+</html>
